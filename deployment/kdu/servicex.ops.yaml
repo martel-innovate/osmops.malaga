@@ -1,0 +1,8 @@
+kind: NsInstance
+name: servicex
+description: Demo Service X NS instance
+nsdName: servicex_ns
+vnfName: servicex_knf
+vimAccountName: dummyvim
+kdu:
+  name: servicex
