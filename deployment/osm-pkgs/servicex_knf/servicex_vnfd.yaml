@@ -1,0 +1,18 @@
+vnfd:
+  description: KNF with single KDU defined by Service X's Helm chart.
+  df:
+  - id: default-df
+  ext-cpd:
+  - id: mgmt-ext
+    k8s-cluster-net: mgmtnet
+  id: servicex_knf
+  k8s-cluster:
+    nets:
+    - id: mgmtnet
+  kdu:
+  - name: servicex
+    helm-chart: affordable5g/affordable5g-api
+  mgmt-cp: mgmt-ext
+  product-name: servicex_knf
+  provider: Ubiwhere
+  version: '1.0'

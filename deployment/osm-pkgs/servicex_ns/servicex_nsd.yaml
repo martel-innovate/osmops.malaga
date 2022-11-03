@@ -1,0 +1,22 @@
+nsd:
+  nsd:
+  - description: NS with single servicex_knf connected to the mgmt network.
+    designer: Ubiwhere
+    df:
+    - id: default-df
+      vnf-profile:
+      - id: servicex
+        virtual-link-connectivity:
+        - constituent-cpd-id:
+          - constituent-base-element-id: servicex
+            constituent-cpd-id: mgmt-ext
+          virtual-link-profile-id: mgmtnet
+        vnfd-id: servicex_knf
+    id: servicex_ns
+    name: servicex_ns
+    version: '1.0'
+    virtual-link-desc:
+    - id: mgmtnet
+      mgmt-network: 'true'
+    vnfd-id:
+    - servicex_knf
