@@ -1,0 +1,715 @@
+# HELP controller_runtime_active_workers Number of currently used workers per controller
+# TYPE controller_runtime_active_workers gauge
+controller_runtime_active_workers{controller="gitrepository"} 0
+# HELP controller_runtime_max_concurrent_reconciles Maximum number of concurrent reconciles per controller
+# TYPE controller_runtime_max_concurrent_reconciles gauge
+controller_runtime_max_concurrent_reconciles{controller="gitrepository"} 1
+# HELP controller_runtime_reconcile_errors_total Total number of reconciliation errors per controller
+# TYPE controller_runtime_reconcile_errors_total counter
+controller_runtime_reconcile_errors_total{controller="gitrepository"} 0
+# HELP controller_runtime_reconcile_time_seconds Length of time per reconciliation per controller
+# TYPE controller_runtime_reconcile_time_seconds histogram
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.005"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.01"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.025"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.05"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.1"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.15"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.2"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.25"} 0
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.3"} 1
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.35"} 1
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.4"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.45"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.6"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.7"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.8"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="0.9"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="1"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="1.25"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="1.5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="1.75"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="2"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="2.5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="3"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="3.5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="4"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="4.5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="5"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="6"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="7"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="8"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="9"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="10"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="15"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="20"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="25"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="30"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="40"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="50"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="60"} 2
+controller_runtime_reconcile_time_seconds_bucket{controller="gitrepository",le="+Inf"} 2
+controller_runtime_reconcile_time_seconds_sum{controller="gitrepository"} 0.6356981930000001
+controller_runtime_reconcile_time_seconds_count{controller="gitrepository"} 2
+# HELP controller_runtime_reconcile_total Total number of reconciliations per controller
+# TYPE controller_runtime_reconcile_total counter
+controller_runtime_reconcile_total{controller="gitrepository",result="error"} 0
+controller_runtime_reconcile_total{controller="gitrepository",result="requeue"} 0
+controller_runtime_reconcile_total{controller="gitrepository",result="requeue_after"} 0
+controller_runtime_reconcile_total{controller="gitrepository",result="success"} 2
+# HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 6.0602e-05
+go_gc_duration_seconds{quantile="0.25"} 9.4659e-05
+go_gc_duration_seconds{quantile="0.5"} 0.000108853
+go_gc_duration_seconds{quantile="0.75"} 0.00012281
+go_gc_duration_seconds{quantile="1"} 0.000223525
+go_gc_duration_seconds_sum 0.127048925
+go_gc_duration_seconds_count 1118
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 30
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.16.15"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 3.206712e+06
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 1.973464e+07
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.451829e+06
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 144212
+# HELP go_memstats_gc_cpu_fraction The fraction of this program's available CPU time used by the GC since the program started.
+# TYPE go_memstats_gc_cpu_fraction gauge
+go_memstats_gc_cpu_fraction 2.920955369211848e-06
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 5.22784e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 3.206712e+06
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 6.1218816e+07
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 5.267456e+06
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 16390
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 6.0768256e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 6.6486272e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.6675511532238688e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 160602
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 2400
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 16384
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 80376
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 81920
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 6.262048e+06
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 645011
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 622592
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 622592
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 7.4531848e+07
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 8
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 55.88
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 10
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 3.1997952e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.66741683463e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 7.5524096e+08
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP rest_client_request_latency_seconds Request latency in seconds. Broken down by verb and URL.
+# TYPE rest_client_request_latency_seconds histogram
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET"} 0.009049073
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/api/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/api?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/api?timeout=32s",verb="GET"} 0.019781672
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/api?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET"} 0.00724107
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET"} 0.007105413
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/apiextensions.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET"} 0.003710509
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/apiregistration.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET"} 0.008676929
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/apps/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET"} 0.008477583
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/authentication.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET"} 0.004308292
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/authorization.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET"} 0.008613321
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/autoscaling/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET"} 0.008644374
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/autoscaling/v2?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.004"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET"} 0.003812921
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/autoscaling/v2beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET"} 0.004062146
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/autoscaling/v2beta2?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET"} 0.008651128
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/batch/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET"} 0.008300731
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/batch/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET"} 0.008268162
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/certificates.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET"} 0.026235352
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/coordination.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET"} 0.177168856
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.22648166
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/discovery.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET"} 0.008338914
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/events.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.008511184
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/events.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.006400682
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET"} 0.007288458
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta2?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET"} 0.006411272
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/helm.cattle.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.128"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.256"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET"} 0.276862728
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/k3s.cattle.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.041687219
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/metrics.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET"} 0.008056441
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/networking.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET"} 0.076461174
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/node.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.127016746
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET"} 0.005305004
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/policy/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET"} 0.006481247
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/policy/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET"} 0.007462689
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/rbac.authorization.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET"} 0.006137876
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.002"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.004"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET"} 0.001334371
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1/gitrepositories?limit=%7Bvalue%7D&resourceVersion=%7Bvalue%7D",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET"} 0.005863282
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/source.toolkit.fluxcd.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET"} 0.007782074
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/storage.k8s.io/v1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET"} 0.007409105
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/storage.k8s.io/v1beta1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.002"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.004"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.008"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.016"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.032"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.064"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.128"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.256"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET"} 0.327274259
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis/traefik.containo.us/v1alpha1?timeout=32s",verb="GET"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.001"} 0
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.002"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.004"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.008"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.016"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.032"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.064"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.128"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.256"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="0.512"} 1
+rest_client_request_latency_seconds_bucket{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET",le="+Inf"} 1
+rest_client_request_latency_seconds_sum{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET"} 0.001027818
+rest_client_request_latency_seconds_count{url="https://10.43.0.1:443/apis?timeout=32s",verb="GET"} 1
+# HELP rest_client_requests_total Number of HTTP requests, partitioned by status code, method, and host.
+# TYPE rest_client_requests_total counter
+rest_client_requests_total{code="200",host="10.43.0.1:443",method="GET"} 340
+# HELP workqueue_adds_total Total number of adds handled by workqueue
+# TYPE workqueue_adds_total counter
+workqueue_adds_total{name="gitrepository"} 2
+# HELP workqueue_depth Current depth of workqueue
+# TYPE workqueue_depth gauge
+workqueue_depth{name="gitrepository"} 0
+# HELP workqueue_longest_running_processor_seconds How many seconds has the longest running processor for workqueue been running.
+# TYPE workqueue_longest_running_processor_seconds gauge
+workqueue_longest_running_processor_seconds{name="gitrepository"} 0
+# HELP workqueue_queue_duration_seconds How long in seconds an item stays in workqueue before being requested
+# TYPE workqueue_queue_duration_seconds histogram
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="1e-08"} 0
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="1e-07"} 0
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="1e-06"} 0
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="9.999999999999999e-06"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="9.999999999999999e-05"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="0.001"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="0.01"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="0.1"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="1"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="10"} 2
+workqueue_queue_duration_seconds_bucket{name="gitrepository",le="+Inf"} 2
+workqueue_queue_duration_seconds_sum{name="gitrepository"} 1.5135e-05
+workqueue_queue_duration_seconds_count{name="gitrepository"} 2
+# HELP workqueue_retries_total Total number of retries handled by workqueue
+# TYPE workqueue_retries_total counter
+workqueue_retries_total{name="gitrepository"} 0
+# HELP workqueue_unfinished_work_seconds How many seconds of work has been done that is in progress and hasn't been observed by work_duration. Large values indicate stuck threads. One can deduce the number of stuck threads by observing the rate at which this increases.
+# TYPE workqueue_unfinished_work_seconds gauge
+workqueue_unfinished_work_seconds{name="gitrepository"} 0
+# HELP workqueue_work_duration_seconds How long in seconds processing an item from workqueue takes.
+# TYPE workqueue_work_duration_seconds histogram
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="1e-08"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="1e-07"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="1e-06"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="9.999999999999999e-06"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="9.999999999999999e-05"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="0.001"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="0.01"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="0.1"} 0
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="1"} 2
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="10"} 2
+workqueue_work_duration_seconds_bucket{name="gitrepository",le="+Inf"} 2
+workqueue_work_duration_seconds_sum{name="gitrepository"} 0.635777705
+workqueue_work_duration_seconds_count{name="gitrepository"} 2
